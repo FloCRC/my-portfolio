@@ -1,6 +1,5 @@
 import Nav from "./components/Nav"
-import About from "./components/About"
-import FeatureProject from "./components/FeatureProject"
+import AboutPage from "./pages/AboutPage"
 
 function App() {
 
@@ -9,8 +8,7 @@ function App() {
       <div className="z-0 fixed h-full w-full bg-[url('src/assets/bgimage.avif')] opacity-50"></div>
       <div className="flex">
         <Nav />
-        <About />
-        <FeatureProject />
+        <AboutPage />
       </div>
     </>
   )

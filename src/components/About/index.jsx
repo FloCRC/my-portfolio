@@ -2,7 +2,7 @@ export default function About() {
 
     return (
         <>
-            <section className="z-50 flex flex-col justify-between items-center w-96 ml-40 pr-10 h-screen border-e border-gray-600">
+            <section className="z-50 flex flex-col justify-between items-center w-[32rem] ml-40 pr-10 h-screen border-e border-gray-600">
                 <div className="mt-12"></div>
                 <div className="flex flex-col">
                     <h1 className="w-full text-right font-bold text-4xl font-['Outfit']">Florent Cuer</h1>
