@@ -9,7 +9,7 @@ export default function Nav() {
     }
 
     return (
-        <section className="flex flex-col justify-between w-[10rem] h-screen border-e border-gray-600">
+        <section className="z-50 relative flex flex-col justify-between w-[10rem] h-screen border-e border-gray-600">
             <nav className="flex justify-end w-[10rem] h-auto pr-1 border-b border-gray-600">
                 <div className="relative m-1.5 pr-1">
                     <button onClick={toggleDrop} className="dropButton"><i className="fa-solid fa-bars text-gray-600 hover:opacity-40"> </i></button>
