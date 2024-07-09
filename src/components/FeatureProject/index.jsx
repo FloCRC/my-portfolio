@@ -1,7 +1,7 @@
 export default function FeatureProject() {
 
     return (
-        <section className="z-50 flex flex-col justify-center items-center px-10 w-full h-screen">
+        <>
             <a href="#project1" className="">
                 <h2 className="text-right font-bold text-3xl font-['Outfit']">Projects</h2>
                 <div className="flex justify-around py-8 hover:opacity-40">
@@ -22,6 +22,6 @@ export default function FeatureProject() {
                     </div>
                 </div>
             </a>
-        </section>
+        </>
     )
 }
