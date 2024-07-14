@@ -11,6 +11,10 @@ export default {
       md: { max: "767px" },
       sm: { max: "639px" },
     },
+    colors: {
+      'blueLight': '#F0FFFF',
+      'blueGrey': '#8D9DAD',
+    },
     extend: {},
   },
   plugins: [],

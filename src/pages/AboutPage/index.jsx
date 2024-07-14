@@ -1,5 +1,5 @@
 import About from "../../components/About";
-import FeatureProject from "../../components/FeatureProject";
+import Skills from "../../components/Skills";
 
 export default function AboutPage() {
 
@@ -9,14 +9,14 @@ export default function AboutPage() {
                 <About />
             </div>
             <div className="z-50 flex flex-col justify-center items-center px-10 w-full h-screen lg:hidden">
-                <FeatureProject />
+                <Skills />
             </div>
             <div className="hidden lg:flex lg:flex-col">
                 <div className="z-50 flex flex-col justify-between items-center ml-60 mr-10 pr-10 h-screen border-e border-gray-600">
                     <About />
                 </div>
                 <div>
-                    <FeatureProject />
+                    <Skills />
                 </div>
             </div>
         </>
