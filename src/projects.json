@@ -1,0 +1,19 @@
+{
+    "projects": [
+      {
+        "id": 1,
+        "name": "Project 1",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
+        "image1": "PlaceHoldImage1.jpeg",
+        "image2": "PlaceHoldImage2.jpeg"
+      },
+      
+      {
+        "id": 2,
+        "name": "Project 2",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
+        "image1": "PlaceHoldImage1.jpeg",
+        "image2": "PlaceHoldImage2.jpeg"
+      }
+    ]
+  }

@@ -14,8 +14,8 @@ export default function Nav() {
                 <div className="relative m-1.5 pr-1">
                     <button onClick={toggleDrop} className="dropButton"><i className="fa-solid fa-bars text-gray-700 hover:opacity-80 hover:text-blueLight"> </i></button>
                     <div className={`flex flex-col absolute mt-3 text-right text-nowrap text-gray-700 ${visible}`}>
-                        <a href="#project1" className="font-['Playwrite_DE_Grund'] hover:opacity-80 hover:text-blueLight">About</a>
-                        <a href="#project2" className="font-['Playwrite_DE_Grund'] hover:opacity-80 hover:text-blueLight">Projects</a>
+                        <a href="#home" className="font-['Playwrite_DE_Grund'] hover:opacity-80 hover:text-blueLight">About</a>
+                        <a href="#projects" className="font-['Playwrite_DE_Grund'] hover:opacity-80 hover:text-blueLight">Projects</a>
                         <a href="#CV" className="font-['Playwrite_DE_Grund'] hover:opacity-80 hover:text-blueLight">CV</a>
                     </div>
                 </div>
