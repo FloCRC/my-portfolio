@@ -16,7 +16,7 @@ export default function ProjectsGrid() {
 
     return (
         <>
-            <div className="z-50 grid grid-cols-2 grid-flow-row gap-5 overflow-hidden h-[660px] w-[1000px] justify-items-center text-grey">
+            <div className="z-50 grid grid-cols-2 grid-flow-row gap-5 overflow-scroll h-[660px] justify-items-center text-grey">
                 {projects.map(project =>
                     <a href={project.link}>
                         <div className="flex justify-center h-[310px] w-[440px] py-4 shadow-xl hover:shadow-inner">
