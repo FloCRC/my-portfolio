@@ -14,6 +14,8 @@ export default {
     colors: {
       'blueLight': '#F0FFFF',
       'blueGrey': '#8D9DAD',
+      'grey': '#374151',
+      'grey2': '#1f2937',
     },
     extend: {},
   },

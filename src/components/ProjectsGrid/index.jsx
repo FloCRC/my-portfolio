@@ -5,7 +5,7 @@ export default function ProjectsGrid() {
     const [projects, setProjects] = useState([]);
 
     useEffect(() => {
-        fetch("../../projects.json").then
+        fetch("../../../projects.json").then
             (res => res.json()).then
             (data => {
                 setProjects(data.projects);
@@ -16,27 +16,18 @@ export default function ProjectsGrid() {
 
     return (
         <>
-            <div className="z-50">
-                <a href="#home" className="">
-                    <div className="flex justify-around py-8 hover:text-blueGrey">
-                        <img src="PlaceHoldImage1.jpeg" alt="Project 1 Image" className="w-96 h-56 mr-5 shadow-md shadow-black" />
-                        <div className="flex flex-col pl-3">
-                            <h3 className="text-left font-semibold text-lg font-['Outfit']">Feature Project 1</h3>
-                            <p className="text-justify font-['Playwrite_DE_Grund'] text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div className="z-50 grid grid-cols-2 grid-flow-row gap-5 overflow-hidden h-[660px] w-[1000px] justify-items-center text-grey">
+                {projects.map(project =>
+                    <a href={project.link}>
+                        <div className="flex justify-center h-[310px] w-[440px] py-4 shadow-xl hover:shadow-inner">
+                            <div className="flex flex-col">
+                                <h3 className="text-left font-semibold text-xl font-['Outfit'] pb-2">{project.name}</h3>
+                                <img src={project.imageOne} alt="Project 1 Image" className="w-96 h-56" />
+                            </div>
                         </div>
-                    </div>
-                </a>
-                <a Link href="#home" className="">
-                    <h2 className="text-right font-bold text-3xl font-['Outfit']"></h2>
-                    <div className="flex justify-around py-8 hover:text-blueGrey">
-                        <img src="PlaceHoldImage2.jpeg" alt="Project 1 Image" className="w-96 h-56 mr-5 shadow-md shadow-black" />
-                        <div className="flex flex-col pl-3">
-                            <h3 className="text-left font-semibold text-lg font-['Outfit']">Feature Project 2</h3>
-                            <p className="text-justify font-['Playwrite_DE_Grund'] text-gray-600">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-                        </div>
-                    </div>
-                </a>
-            </div>
+                    </a>
+                )}
+                </div>
         </>
     )
 }

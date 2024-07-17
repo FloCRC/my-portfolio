@@ -2,7 +2,7 @@ export default function Skills() {
 
     return (
         <>
-            <div href="#project1" className="">
+            <div href="#home" className="text-grey2">
                 <h2 className="text-right font-bold text-3xl font-['Outfit']">Skills</h2>
                 <div className="grid grid-cols-4 gap-y-8 gap-x-12 py-8 text-center">
                     <p className="font-['Outfit']"><i class="fa-brands fa-react text-6xl"></i><br />React</p>
