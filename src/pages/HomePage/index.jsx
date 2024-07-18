@@ -5,7 +5,7 @@ export default function HomePage() {
 
     return (
         <>
-            <div id="home" className="flex">
+            <div id="home" className="flex h-screen min-h-[640px]">
                 <div className="z-50 flex flex-col justify-between items-center w-[32rem] ml-80 pr-10 h-screen border-e border-gray-600 xl:ml-60 lg:hidden">
                     <About />
                 </div>

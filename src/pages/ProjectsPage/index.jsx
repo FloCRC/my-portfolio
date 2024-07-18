@@ -5,7 +5,7 @@ export default function ProjectsPage() {
 
     return (
         <>
-            <div id="projects" className="flex">
+            <div id="projects" className="flex h-screen min-h-[640px]">
                 <div className="z-50 flex flex-col justify-between items-center w-[32rem] ml-80 pr-10 h-screen border-e border-gray-600 xl:ml-60 lg:hidden">
                     <ProjectsAbout />
                 </div>
@@ -20,11 +20,11 @@ export default function ProjectsPage() {
                     <div className="">
                         <ProjectsAbout />
                     </div>
-                    <div className="">
+                    <div className="w-full">
                         <ProjectsGrid />
                     </div>
                     <a href="#projects" className="hidden flex-col w-full mb-12 text-gray-600 hover:text-blueGrey lg:flex">
-                        <h1 className="w-full text-right font-semibold text-3xl font-['Outfit']">Projects</h1>
+                        <h1 className="w-full text-right font-semibold text-3xl font-['Outfit']">Project 1</h1>
                         <p className="w-full pt-4 text-right text-4xl"><i className="fa-solid fa-angle-down"></i></p>
                     </a>
                 </div>
