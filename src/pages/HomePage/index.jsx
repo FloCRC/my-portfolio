@@ -12,7 +12,7 @@ export default function HomePage() {
                 <div className="z-40 flex flex-col justify-center items-center px-10 w-full lg:hidden">
                     <Skills />
                 </div>
-                <div className="hidden z-40 items-center min-h-[700px] pb-6 ml-60 mr-10 pr-10 border-e border-grey flex-col justify-around lg:flex md:mt-[47px] md:border-e-0 md:mx-5 md:pr-0 md:pb-10">
+                <div className="hidden z-40 items-center min-h-[700px] pb-6 ml-60 mr-10 pr-10 border-e border-grey flex-col justify-around lg:flex md:mt-[47px] md:border-e-0 md:mx-10 md:pr-0 md:pb-10 sm:mx-5">
                     <div className="">
                         <About />
                     </div>
