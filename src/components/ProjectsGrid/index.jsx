@@ -1,18 +1,4 @@
-import { useEffect, useState } from "react"
-
-export default function ProjectsGrid() {
-
-    const [projects, setProjects] = useState([]);
-
-    useEffect(() => {
-        fetch("../../../projects.json").then
-            (res => res.json()).then
-            (data => {
-                setProjects(data.projects);
-            })
-    }, [])
-
-    console.log(projects);
+export default function ProjectsGrid({ projects }) {
 
     return (
         <>
@@ -27,7 +13,7 @@ export default function ProjectsGrid() {
                         </div>
                     </a>
                 )}
-                </div>
+            </div>
         </>
     )
 }

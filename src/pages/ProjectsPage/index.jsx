@@ -1,7 +1,7 @@
 import ProjectsGrid from "../../components/ProjectsGrid";
 import ProjectsAbout from "../../components/ProjectsAbout";
 
-export default function ProjectsPage() {
+export default function ProjectsPage({ projects }) {
 
     return (
         <>
@@ -10,7 +10,7 @@ export default function ProjectsPage() {
                     <ProjectsAbout />
                 </div>
                 <div className="z-50 flex flex-col justify-center items-center px-10 w-full h-screen lg:hidden">
-                    <ProjectsGrid />
+                    <ProjectsGrid projects={projects} />
                 </div>
                 <div className="hidden z-50 items-center h-screen ml-60 mr-10 pr-10 border-e border-gray-600 flex-col justify-around lg:flex">
                     <a href="#home" className="hidden flex-col w-full mb-12 text-gray-600 hover:text-blueGrey lg:flex">
@@ -21,7 +21,7 @@ export default function ProjectsPage() {
                         <ProjectsAbout />
                     </div>
                     <div className="w-full">
-                        <ProjectsGrid />
+                        <ProjectsGrid projects={projects} />
                     </div>
                     <a href="#projects" className="hidden flex-col w-full mb-12 text-gray-600 hover:text-blueGrey lg:flex">
                         <h1 className="w-full text-right font-semibold text-3xl font-['Outfit']">Project 1</h1>
