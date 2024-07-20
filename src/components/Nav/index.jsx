@@ -41,7 +41,7 @@ export default function Nav({ projects }) {
                     </div>
                     <div className={`flex justify-around mt-10 py-2 w-screen border-y absolute text-grey bg-[url('src/assets/bgimage.avif')] ${visible} sm:justify-center`}>
                             <a href="#home" className="font-['Outfit'] sm:pr-7"><p className="hover:opacity-70 hover:text-blueLight">About</p></a>
-                            <a href="#projectsMobile" className="font-['Outfit'] sm:border-x sm:px-7"><p className="hover:opacity-70 hover:text-blueLight">Projects</p></a>
+                            <a href="#projects" className="font-['Outfit'] sm:border-x sm:px-7"><p className="hover:opacity-70 hover:text-blueLight">Projects</p></a>
                             <a href="#CV" className="font-['Outfit'] sm:pl-7"><p className="hover:opacity-70 hover:text-blueLight">CV</p></a>
                         </div>
                     <button className="home text-grey mr-2 font-['Outfit'] hover:opacity-70 hover:text-blueLight"><a href="#home">Home</a></button>
