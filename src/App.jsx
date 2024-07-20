@@ -20,7 +20,7 @@ function App() {
   return (
     <>
       <div className="z-0 fixed h-full w-full bg-[url('src/assets/bgimage.avif')] opacity-50"></div>
-      <Nav />
+      <Nav projects={projects}/>
       <HomePage />
       <AllProjectsPage projects={projects} />
       {projects.map(project => 

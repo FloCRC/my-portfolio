@@ -5,8 +5,8 @@
         "link": "project1",
         "name": "Web Portfolio",
         "description": "The purpose of this project was to build a web based portfolio that clearly displays my projects. This project is built with JavaSscript, HTML and tailwindcss using the React library. Responsive design is used to ensure accessibility accross different devices, and a JSON file is used to fetch project data.",
-        "imageOne": "src/assets/portfolioImageOne.jpg",
-        "imageTwo": "PlaceHoldImage1.jpeg"
+        "imageOne": "src/assets/portfolioImageDesktop.jpg",
+        "imageTwo": "src/assets/portfolioImageMobile.jpg"
       },
       
       {
@@ -15,7 +15,7 @@
         "name": "Invoicing App",
         "description": "The purpose of this project was to build a web app for a user to be able to manage their invoices. This project is built with JavaSscript, HTML and tailwindcss using the React library. The app accesses an API to retrieve and post the invoice data. The user can filter and sort their list of invoices, view a particular invoice, mark it as paid or cancelled, and create a new invoice.",
         "imageOne": "src/assets/invoicesImageDesktop.jpg",
-        "imageTwo": "PlaceHoldImage1.jpeg"
+        "imageTwo": "src/assets/invoicesImageMobile.jpg"
       },
       
       {
@@ -23,8 +23,8 @@
         "link": "project3",
         "name": "Project 3",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
-        "imageOne": "src/assets/portfolioImageOne.jpg",
-        "imageTwo": "PlaceHoldImage1.jpeg"
+        "imageOne": "src/assets/portfolioImageDesktop.jpg",
+        "imageTwo": "src/assets/portfolioImageMobile.jpg"
       },
       
       {
@@ -32,8 +32,8 @@
         "link": "project4",
         "name": "Project 4",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
-        "imageOne": "src/assets/portfolioImageOne.jpg",
-        "imageTwo": "PlaceHoldImage1.jpeg"
+        "imageOne": "src/assets/portfolioImageDesktop.jpg",
+        "imageTwo": "src/assets/portfolioImageMobile.jpg"
       },
 
       {
@@ -41,8 +41,8 @@
         "link": "project5",
         "name": "Project 5",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
-        "imageOne": "src/assets/portfolioImageOne.jpg",
-        "imageTwo": "PlaceHoldImage1.jpeg"
+        "imageOne": "src/assets/portfolioImageDesktop.jpg",
+        "imageTwo": "src/assets/portfolioImageMobile.jpg"
       },
       
       {
@@ -50,8 +50,8 @@
         "link": "project6",
         "name": "Project 6",
         "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
-        "imageOne": "src/assets/portfolioImageOne.jpg",
-        "imageTwo": "PlaceHoldImage1.jpeg"
+        "imageOne": "src/assets/portfolioImageDesktop.jpg",
+        "imageTwo": "src/assets/portfolioImageMobile.jpg"
       }
     ]
   }

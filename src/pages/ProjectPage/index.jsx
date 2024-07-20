@@ -6,13 +6,13 @@ export default function ProjectPage({ project }) {
     return (
         <>
             <div id={project.link} className="flex h-screen min-h-[640px]">
-                <div className="z-50 flex flex-col justify-between items-center w-[32rem] min-w-[260px] ml-80 pr-10 border-e border-gray-600 xl:ml-60 lg:hidden">
+                <div className="z-50 flex flex-col justify-between items-center w-[32rem] min-w-[260px] ml-80 pr-10 border-e border-grey xl:ml-60 lg:hidden">
                     <ProjectAbout project={project} />
                 </div>
                 <div className="z-50 flex flex-col justify-center items-center px-10 w-full lg:hidden">
                     <ProjectImage project={project} />
                 </div>
-                <div id={`${project.link}Mobile}`} className="hidden z-40 items-center min-h-[700px] py-6 ml-60 mr-10 pr-10 border-e border-gray-600 flex-col justify-around lg:flex md:border-e-0 md:mx-10 md:pr-0 md:py-10 md:my-12 sm:mx-5">
+                <div id={`${project.link}Mobile}`} className="hidden z-40 items-center min-h-[700px] py-6 ml-60 mr-10 pr-10 border-e border-grey flex-col justify-around lg:flex md:border-e-0 md:mx-10 md:pr-0 md:py-10 md:my-12 sm:mx-5">
                     <a href={project.id === 1 ? `#projects` : `#project${project.id - 1}`} className="flex flex-col w-full text-grey hover:opacity-70 hover:text-blueGrey">
                         <p className="w-full text-right text-4xl md:text-2xl"><i className="fa-solid fa-angle-up"></i></p>
                         <h1 className="w-full pb-4 text-right font-semibold text-3xl font-['Outfit'] md:text-xl md:pb-0">{project.id === 1 ? `Projects` : `Project ${project.id - 1}`}</h1>
