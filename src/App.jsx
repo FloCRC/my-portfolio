@@ -1,7 +1,8 @@
 import { useEffect, useState } from "react";
 import Nav from "./components/Nav"
 import HomePage from "./pages/HomePage"
-import ProjectsPage from "./pages/ProjectsPage"
+import AllProjectsPage from "./pages/AllProjectsPage"
+import ProjectPage from "./pages/ProjectPage";
 
 function App() {
 
@@ -21,7 +22,10 @@ function App() {
       <div className="z-0 fixed h-full w-full bg-[url('src/assets/bgimage.avif')] opacity-50"></div>
       <Nav />
       <HomePage />
-      <ProjectsPage projects={projects} />
+      <AllProjectsPage projects={projects} />
+      {projects.map(project => 
+        <ProjectPage project={project} />
+      )}
     </>
   )
 }

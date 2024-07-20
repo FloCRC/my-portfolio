@@ -7,8 +7,10 @@ export default function ProjectsGrid({ projects }) {
                     <a href={project.link}>
                         <div className="flex justify-center p-4 shadow-xl hover:shadow-inner">
                             <div className="flex flex-col">
-                                <h3 className="text-left font-semibold text-xl font-['Outfit'] pb-2">{project.name}</h3>
-                                <img src={project.imageOne} alt="Project 1 Image" className="w-96 h-56 md:h-auto" />
+                                <a href={`#${project.link}`}>
+                                    <h3 className="text-left font-semibold text-xl font-['Outfit'] pb-2">{project.name}</h3>
+                                    <img src={project.imageOne} alt="Project 1 Image" className="w-96 h-56 md:h-auto" />
+                                </a>
                             </div>
                         </div>
                     </a>

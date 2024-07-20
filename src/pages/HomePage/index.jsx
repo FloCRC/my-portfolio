@@ -16,7 +16,7 @@ export default function HomePage() {
                     <div className="">
                         <About />
                     </div>
-                    <div className="mt-4">
+                    <div className="mt-4 sm:m-0">
                         <Skills />
                     </div>
                     <a href="#projectsMobile" className="flex flex-col w-full text-grey hover:opacity-70 hover:text-blueGrey">
