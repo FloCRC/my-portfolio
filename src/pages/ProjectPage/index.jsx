@@ -5,7 +5,7 @@ export default function ProjectPage({ project }) {
 
     return (
         <>
-            <div id={project.link} className="flex h-screen min-h-[640px]">
+            <div id={project.link} className="flex h-screen min-h-[720px] lg:min-h-[800px] md:min-h-[700px]">
                 <div className="z-50 flex flex-col justify-between items-center w-[32rem] min-w-[260px] ml-80 pr-10 border-e border-grey xl:ml-60 lg:hidden">
                     <ProjectAbout project={project} />
                 </div>

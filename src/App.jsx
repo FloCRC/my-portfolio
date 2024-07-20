@@ -3,6 +3,7 @@ import Nav from "./components/Nav"
 import HomePage from "./pages/HomePage"
 import AllProjectsPage from "./pages/AllProjectsPage"
 import ProjectPage from "./pages/ProjectPage";
+import CVPage from "./pages/CVPage";
 
 function App() {
 
@@ -26,6 +27,7 @@ function App() {
       {projects.map(project => 
         <ProjectPage project={project} />
       )}
+      <CVPage />
     </>
   )
 }
