@@ -13,7 +13,6 @@ function App() {
     fetch("../projects.json").then
       (res => res.json()).then
       (data => {
-        console.log(data)
         setProjects(data.projects);
       })
   }, [])
@@ -25,9 +24,9 @@ function App() {
       <HomePage />
       <AllProjectsPage projects={projects} />
       {projects.map(project => 
-        <ProjectPage project={project} />
+        <ProjectPage key={project.id} project={project} projects={projects} />
       )}
-      <CVPage />
+      <CVPage projects={projects} />
     </>
   )
 }

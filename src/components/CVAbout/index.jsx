@@ -1,10 +1,10 @@
-export default function CVAbout() {
+export default function CVAbout({ projects }) {
 
     return (
         <>
-            <a href="#home" className="flex flex-col w-full mb-12 text-grey hover:opacity-70 hover:text-blueGrey lg:hidden">
+            <a href={`#project${Object.keys(projects).length}`} className="flex flex-col w-full mb-12 text-grey hover:opacity-70 hover:text-blueGrey lg:hidden">
                 <p className="w-full pt-4 text-right text-4xl"><i className="fa-solid fa-angle-up"></i></p>
-                <h3 className="w-full text-right font-semibold text-3xl font-['Outfit']">Last Project</h3>
+                <h3 className="w-full text-right font-semibold text-3xl font-['Outfit']">{`Project${Object.keys(projects).length}`}</h3>
             </a>
             <div className="flex flex-col w-full text-grey">
                 <h1 className="w-full text-right font-bold text-4xl font-['Outfit'] md:text-3xl md:text-left sm:text-2xl">CV</h1>

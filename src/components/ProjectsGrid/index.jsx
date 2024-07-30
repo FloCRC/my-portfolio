@@ -4,7 +4,7 @@ export default function ProjectsGrid({ projects }) {
         <>
             <div className="z-50 grid grid-cols-[repeat(auto-fill,minmax(425px,1fr))] gap-5 overflow-scroll w-full h-[660px] justify-items-center text-grey lg:grid-cols-1 lg:h-[330px] md:h-[270px]">
                 {projects.map(project =>
-                    <a href={project.link}>
+                    <div key={project.id}>
                         <div className="flex justify-center p-4 shadow-xl hover:shadow-inner">
                             <div className="flex flex-col">
                                 <a href={`#${project.link}`}>
@@ -13,7 +13,7 @@ export default function ProjectsGrid({ projects }) {
                                 </a>
                             </div>
                         </div>
-                    </a>
+                    </div>
                 )}
             </div>
         </>

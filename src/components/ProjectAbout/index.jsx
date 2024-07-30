@@ -1,4 +1,4 @@
-export default function ProjectAbout({ project }) {
+export default function ProjectAbout({ project, projects }) {
 
     return (
         <>
@@ -10,9 +10,13 @@ export default function ProjectAbout({ project }) {
                 <h1 className="w-full text-right font-bold text-4xl font-['Outfit'] md:text-3xl md:text-left sm:text-2xl">{project.name}</h1>
                 <h2 className="w-full text-right font-bold text-lg font-['Outfit']"></h2>
                 <p className="w-full pt-4 text-justify font-['Playwrite_DE_Grund'] md:pt-2 sm:text-sm">{project.description}</p>
+                <span className="text-4xl text-right mt-2 md:text-3xl md:text-left">
+                    <a href={project.git} className="pr-4" target="_blank"><i className="fa-brands fa-github hover:opacity-70 hover:text-blueLight"></i></a>
+                    <a href={project.live} target="_blank"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </span>
             </div>
-            <a href={project.id === Object.keys(project).length ? `#cv` : `#project${project.id + 1}`} className="flex flex-col w-full mt-12 text-grey hover:opacity-70 hover:text-blueGrey lg:hidden">
-                <h3 className="w-full text-right font-semibold text-3xl font-['Outfit']">{project.id === Object.keys(project).length ? `CV` : `Project ${project.id + 1}`}</h3>
+            <a href={project.id === Object.keys(projects).length ? `#cv` : `#project${project.id + 1}`} className="flex flex-col w-full mt-12 text-grey hover:opacity-70 hover:text-blueGrey lg:hidden">
+                <h3 className="w-full text-right font-semibold text-3xl font-['Outfit']">{project.id === Object.keys(projects).length ? `CV` : `Project ${project.id + 1}`}</h3>
                 <p className="w-full pb-4 text-right text-4xl"><i className="fa-solid fa-angle-down"></i></p>
             </a>
         </>

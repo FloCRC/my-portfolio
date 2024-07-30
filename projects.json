@@ -3,55 +3,34 @@
       {
         "id": 1,
         "link": "project1",
-        "name": "Web Portfolio",
-        "description": "The purpose of this project was to build a web based portfolio that clearly displays my projects. This project is built with JavaSscript, HTML and tailwindcss using the React library. Responsive design is used to ensure accessibility accross different devices, and a JSON file is used to fetch project data.",
-        "imageOne": "src/assets/portfolioImageDesktop.jpg",
-        "imageTwo": "src/assets/portfolioImageMobile.jpg"
+        "name": "Invoicing App",
+        "description": "The purpose of this project was to build a web app for a user to be able to manage their invoices. This was a group project built with JavaSscript, HTML and tailwindcss using the React library. These technologies were used as React components made groupwork easier to manage, and made merging different sections smoother. The app accesses an API to retrieve and post the invoice data. The user can filter and sort their list of invoices, view a particular invoice, mark it as paid or cancelled, and create a new invoice.",
+        "imageOne": "src/assets/invoicesImageDesktop.jpg",
+        "imageTwo": "src/assets/invoicesImageMobile.jpg",
+        "git": "https://github.com/FloCRC/2024-may-invoicing-sw-flamingos",
+        "live": "https://invoices.2024-florentc.dev.io-academy.uk/"
       },
       
       {
         "id": 2,
         "link": "project2",
-        "name": "Invoicing App",
-        "description": "The purpose of this project was to build a web app for a user to be able to manage their invoices. This project is built with JavaSscript, HTML and tailwindcss using the React library. The app accesses an API to retrieve and post the invoice data. The user can filter and sort their list of invoices, view a particular invoice, mark it as paid or cancelled, and create a new invoice.",
-        "imageOne": "src/assets/invoicesImageDesktop.jpg",
-        "imageTwo": "src/assets/invoicesImageMobile.jpg"
+        "name": "Music Player",
+        "description": "The purpose of this project was to code the back-end of a music player using PHP and MySql database queries. The app accesses a database of artists, albums and songs which are formatted on the app in various ways. The user can track song play counts, see which albums are most popular, and favourite songs.",
+        "imageOne": "src/assets/musicImageDesktop.jpg",
+        "imageTwo": "src/assets/musicImageDesktop.jpg",
+        "git": "https://github.com/FloCRC/2024-may-music-player-hungry-hungry-caterpillars",
+        "live": "https://2024-florentc.dev.io-academy.uk/2024-may-music-player-hungry-hungry-caterpillars/"
       },
       
       {
         "id": 3,
         "link": "project3",
-        "name": "Project 3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
+        "name": "Web Portfolio",
+        "description": "The purpose of this project was to build a web based portfolio that clearly displays my projects. This project is built with JavaSscript, HTML and tailwindcss using the React library. Responsive design is used to ensure accessibility across different devices, and a JSON file is used to fetch project data.",
         "imageOne": "src/assets/portfolioImageDesktop.jpg",
-        "imageTwo": "src/assets/portfolioImageMobile.jpg"
-      },
-      
-      {
-        "id": 4,
-        "link": "project4",
-        "name": "Project 4",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
-        "imageOne": "src/assets/portfolioImageDesktop.jpg",
-        "imageTwo": "src/assets/portfolioImageMobile.jpg"
-      },
-
-      {
-        "id": 5,
-        "link": "project5",
-        "name": "Project 5",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
-        "imageOne": "src/assets/portfolioImageDesktop.jpg",
-        "imageTwo": "src/assets/portfolioImageMobile.jpg"
-      },
-      
-      {
-        "id": 6,
-        "link": "project6",
-        "name": "Project 6",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur at nunc varius, ullamcorper nunc in, viverra lectus. Mauris tincidunt viverra pretium. Sed pretium tellus ut lobortis vehicula. Donec cursus rhoncus orci blandit cursus.",
-        "imageOne": "src/assets/portfolioImageDesktop.jpg",
-        "imageTwo": "src/assets/portfolioImageMobile.jpg"
+        "imageTwo": "src/assets/portfolioImageMobile.jpg",
+        "git": "https://github.com/FloCRC/my-portfolio",
+        "live": "https://portfolio.2024-florentc.dev.io-academy.uk/"
       }
     ]
   }
