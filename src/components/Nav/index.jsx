@@ -28,7 +28,7 @@ export default function Nav({ projects }) {
                 <nav className="flex flex-col items-center pt-1 border-t border-grey w-40">
                     <p className="pb-1 text-grey font-['Playwrite_DE_Grund']">Contact</p>
                     <div className="flex justify-center w-40 mb-2 pt-2 text-grey text-xl border-t border-grey">
-                        <a href="mailto:florentcuer@gmail.com" className="pr-3 border-e border-grey"><i className="fa-solid fa-envelope hover:opacity-70 hover:text-blueLight"></i></a>
+                        <a href="mailto:florentcuer+jobs@gmail.com" className="pr-3 border-e border-grey"><i className="fa-solid fa-envelope hover:opacity-70 hover:text-blueLight"></i></a>
                         <a href="https://www.linkedin.com/in/florent-cuer/" target="_blank" className="px-3 border-e border-grey"><i className="fa-brands fa-linkedin-in hover:opacity-70 hover:text-blueLight"></i></a>
                         <a href="https://github.com/FloCRC" target="_blank" className="pl-3"><i className="fa-brands fa-github hover:opacity-70 hover:text-blueLight"></i></a>
                     </div>
@@ -50,7 +50,7 @@ export default function Nav({ projects }) {
                     <div className="pb-1.5 w-40 flex justify-center text-nowrap">
                         <p className="contact text-grey font-['Outfit'] pt-1.5 pr-3">Contact</p>
                         <div className="flex justify-center w-40 pt-1 text-grey border-grey">
-                            <a href="mailto:florentcuer@gmail.com" className="px-3 text-xl border-x"><i className="fa-solid fa-envelope hover:opacity-70 hover:text-blueLight"></i></a>
+                            <a href="mailto:florentcuer+jobs@gmail.com" className="px-3 text-xl border-x"><i className="fa-solid fa-envelope hover:opacity-70 hover:text-blueLight"></i></a>
                             <a href="https://www.linkedin.com/in/florent-cuer/" target="_blank" className="px-3 text-xl border-e"><i className="fa-brands fa-linkedin-in hover:opacity-70 hover:text-blueLight"></i></a>
                             <a href="https://github.com/FloCRC" target="_blank" className="pl-3 text-xl pr-8"><i className="fa-brands fa-github hover:opacity-70 hover:text-blueLight"></i></a>
                         </div>
