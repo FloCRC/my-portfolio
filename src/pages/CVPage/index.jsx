@@ -9,7 +9,7 @@ export default function CVPage({ projects }) {
                 <div className="z-50 flex flex-col justify-between items-center w-[32rem] min-w-[260px] ml-80 pr-10 border-e border-grey xxl:ml-60 lg:hidden">
                     <CVAbout projects={projects} />
                 </div>
-                <div className="z-50 flex flex-col justify-center items-center px-10 w-full lg:hidden">
+                <div className="z-50 flex flex-col justify-center items-center px-10 w-full overflow-auto lg:hidden">
                     <CVImage />
                 </div>
                 <div className="hidden z-40 w-full min-h-[700px] py-6 ml-60 mr-10 pr-10 border-e border-grey flex-col justify-around lg:flex md:items-center md:border-e-0 md:mx-10 md:pr-0 md:pt-10 md:mt-12 sm:mx-5">
