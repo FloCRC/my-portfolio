@@ -13,7 +13,7 @@ export default function CVPage({ projects }) {
                     <CVImage />
                 </div>
                 <div className="hidden z-40 w-full min-h-[700px] py-6 ml-60 mr-10 pr-10 border-e border-grey flex-col justify-around lg:flex md:items-center md:border-e-0 md:mx-10 md:pr-0 md:py-10 md:my-12 sm:mx-5">
-                    <a href={`#project${Object.keys(projects).length}`} className="flex flex-col w-full text-grey hover:opacity-70 hover:text-blueGrey">
+                    <a href={`#project${Object.keys(projects).length}`} className="flex flex-col w-full text-grey hover:opacity-80 hover:text-red">
                         <p className="w-full text-right text-4xl md:text-2xl"><i className="fa-solid fa-angle-up"></i></p>
                         <h1 className="w-full pb-4 text-right font-semibold text-3xl font-['Outfit'] md:text-xl md:pb-0">{`Project${Object.keys(projects).length}`}</h1>
                     </a>
@@ -23,7 +23,7 @@ export default function CVPage({ projects }) {
                     <div className="w-full mt-4">
                         <CVImage />
                     </div>
-                    <a href="#home" className="flex flex-col w-full mt-3 text-grey hover:opacity-70 hover:text-blueGrey">
+                    <a href="#home" className="flex flex-col w-full mt-3 text-grey hover:opacity-80 hover:text-red">
                         <p className="w-full text-right text-4xl md:text-2xl"><i className="fa-solid fa-angle-up"></i></p>
                         <h1 className="w-full pt-4 text-right font-semibold text-3xl font-['Outfit'] md:text-xl md:pt-0">About</h1>
                     </a>

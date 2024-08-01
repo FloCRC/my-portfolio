@@ -4,7 +4,7 @@ export default function ProjectImage({ project }) {
         <>
             <div href="#home" className="">
                 <div className="shadow-xl">
-                    <img src={project.imageOne}/>
+                    <img src={project.imageOne} />
                 </div>
             </div>
         </>

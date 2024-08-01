@@ -19,7 +19,7 @@ export default function HomePage() {
                     <div className="mt-4 sm:m-0">
                         <Skills />
                     </div>
-                    <a href="#projects" className="flex flex-col w-full mt-3 text-grey hover:opacity-70 hover:text-blueGrey">
+                    <a href="#projects" className="flex flex-col w-full mt-3 text-grey hover:opacity-80 hover:text-red">
                         <h1 className="w-full text-right font-semibold text-3xl font-['Outfit'] md:text-xl">Projects</h1>
                         <p className="w-full pt-4 text-right text-4xl md:text-2xl md:pt-0"><i className="fa-solid fa-angle-down"></i></p>
                     </a>
