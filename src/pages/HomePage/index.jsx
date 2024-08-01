@@ -5,14 +5,14 @@ export default function HomePage() {
 
     return (
         <>
-            <div id="home" className="flex h-screen min-h-[700px] md:mb-12">
-                <div className="z-40 flex flex-col justify-between items-center w-[32rem] min-w-[260px] ml-80 pr-10 border-e border-grey xl:ml-60 lg:hidden">
+            <div id="home" className="flex h-screen min-h-[780px] md:pt-2">
+                <div className="z-40 flex flex-col justify-between items-center w-[32rem] min-w-[260px] ml-80 pr-10 border-e border-grey xxl:ml-60 lg:hidden">
                     <About />
                 </div>
                 <div className="z-40 flex flex-col justify-center items-center px-10 w-full lg:hidden">
                     <Skills />
                 </div>
-                <div className="hidden z-40 items-center min-h-[700px] pb-6 ml-60 mr-10 pr-10 border-e border-grey flex-col justify-around lg:flex md:border-e-0 md:mx-10 md:pr-0 md:pb-10 md:mb-12 sm:mx-5 sm:mt-10">
+                <div className="hidden z-40 items-center min-h-[700px] pb-6 ml-60 mr-10 pr-10 border-e border-grey flex-col justify-around lg:flex md:border-e-0 md:mx-10 md:pr-0 md:pb-10 sm:mx-5 sm:mt-10">
                     <div className="">
                         <About />
                     </div>

@@ -15,9 +15,13 @@ export default function Nav({ projects }) {
     useEffect(() => {
         window.navigation.addEventListener("navigate", (event) => {
             const url = event.destination.url
-            const splitUrl = url.split('#')
-            setPage(splitUrl[1])
-            console.log(event)
+            if (url.includes('cvFlorentCuer.pdf')) {
+                setPage('cv')
+            }
+            else {
+                const splitUrl = url.split('#')
+                setPage(splitUrl[1])
+            }
         })
     }, [])
 
@@ -41,7 +45,7 @@ export default function Nav({ projects }) {
                 <nav className="flex flex-col items-center pt-1 border-t border-grey w-40">
                     <p className="pb-1 text-grey font-['Playwrite_DE_Grund']">Contact</p>
                     <div className="flex justify-center w-40 mb-2 pt-2 text-grey text-xl border-t border-grey">
-                        <a href="mailto:florentcuer@gmail.com" className="pr-3 border-e border-grey"><i className="fa-solid fa-envelope hover:opacity-90 hover:text-red"></i></a>
+                        <a href="mailto:florentcuer@gmail.com" target="_blank" className="pr-3 border-e border-grey"><i className="fa-solid fa-envelope hover:opacity-90 hover:text-red"></i></a>
                         <a href="https://www.linkedin.com/in/florent-cuer/" target="_blank" className="px-3 border-e border-grey"><i className="fa-brands fa-linkedin-in hover:opacity-90 hover:text-red"></i></a>
                         <a href="https://github.com/FloCRC" target="_blank" className="pl-3"><i className="fa-brands fa-github hover:opacity-90 hover:text-red"></i></a>
                     </div>

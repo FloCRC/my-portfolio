@@ -2,7 +2,7 @@ export default function Skills() {
 
     return (
         <>
-            <div href="#home" className="text-grey">
+            <div href="#home" className="text-grey md:pt-2">
                 <h2 className="text-right font-bold text-3xl font-['Outfit'] md:text-2xl md:text-left">Skills</h2>
                 <div className="grid grid-cols-4 gap-y-8 gap-x-12 py-8 text-center lg:py-4 sm:grid-cols-3 lg:gap-y-6 sm:gap-y-2 sm:py-2">
                     <p className="font-['Outfit'] sm:text-sm"><i className="fa-brands fa-html5 text-6xl text-red lg:text-4xl sm:text-2xl"></i><br />HTML</p>
