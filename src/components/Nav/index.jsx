@@ -2,7 +2,7 @@ import { useState } from "react"
 
 export default function Nav({ projects }) {
 
-    const [visible, setVisible] = useState('hidden')
+    const [visible, setVisible] = useState('')
 
     function toggleDrop() {
         visible === 'hidden' ? setVisible('') : setVisible('hidden')
