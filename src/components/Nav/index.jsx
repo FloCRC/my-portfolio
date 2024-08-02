@@ -67,7 +67,7 @@ export default function Nav({ projects }) {
                     <div className="pb-1.5 w-40 flex justify-center text-nowrap">
                         <p className="contact text-grey font-['Outfit'] pt-1.5 pr-3">Contact</p>
                         <div className="flex justify-center w-40 pt-1 text-grey border-grey">
-                            <a href="mailto:florentcuer@gmail.com" className="px-3 text-xl border-x"><i className="fa-solid fa-envelope hover:opacity-90 hover:text-red"></i></a>
+                            <a href="mailto:florentcuer@gmail.com" target="_blank" className="px-3 text-xl border-x"><i className="fa-solid fa-envelope hover:opacity-90 hover:text-red"></i></a>
                             <a href="https://www.linkedin.com/in/florent-cuer/" target="_blank" className="px-3 text-xl border-e"><i className="fa-brands fa-linkedin-in hover:opacity-90 hover:text-red"></i></a>
                             <a href="https://github.com/FloCRC" target="_blank" className="pl-3 text-xl pr-8"><i className="fa-brands fa-github hover:opacity-90 hover:text-red"></i></a>
                         </div>
