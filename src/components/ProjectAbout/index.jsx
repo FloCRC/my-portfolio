@@ -10,9 +10,11 @@ export default function ProjectAbout({ project, projects }) {
                 <h1 className="w-full text-right font-bold text-4xl text-red font-['Outfit'] md:text-3xl md:text-left sm:text-2xl">{project.name}</h1>
                 <h2 className="w-full text-right font-bold text-lg font-['Outfit']"></h2>
                 <p className="w-full pt-4 text-justify text-grey font-['Playwrite_DE_Grund'] md:pt-2 sm:text-sm">{project.description}</p>
-                <span className="text-4xl text-right mt-2 md:text-3xl md:text-left">
-                    <a href={project.git} className="pr-4" target="_blank"><i className="fa-brands fa-github text-grey hover:opacity-80 hover:text-red"></i></a>
-                    <a href={project.live} target="_blank"><i className="fa-solid fa-arrow-up-right-from-square text-grey hover:opacity-80 hover:text-red"></i></a>
+                <span className="flex justify-end text-4xl text-center mt-2 md:text-3xl md:justify-start">
+                    <a href={project.git} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-brands fa-github"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">GitHub</p></a>
+                    {project.api && <a href={project.documentation} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-regular fa-file"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">Docs</p></a>}
+                    {project.api && <a href={project.api} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i class="fa-solid fa-gears"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">API</p></a>}
+                    <a href={project.live} className="text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-solid fa-arrow-up-right-from-square"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">Live</p></a>
                 </span>
             </div>
             <a href={project.id === Object.keys(projects).length ? `#cv` : `#project${project.id + 1}`} className="flex flex-col w-full text-grey hover:opacity-80 hover:text-red lg:hidden">

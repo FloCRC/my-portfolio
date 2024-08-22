@@ -8,27 +8,45 @@
             "imageOne": "src/assets/invoicesImageDesktop.jpg",
             "imageTwo": "src/assets/invoicesImageMobile.jpg",
             "git": "https://github.com/FloCRC/2024-may-invoicing-sw-flamingos",
-            "live": "https://invoices.2024-florentc.dev.io-academy.uk/"
+            "live": "https://invoices.2024-florentc.dev.io-academy.uk/",
+            "api": "",
+            "documentation": ""
         },
         {
             "id": 2,
             "link": "project2",
+            "name": "Bookswap API",
+            "description": "The purpose of this project was to build a RESTful API for an existing front-end project. This was a group project built with PHP, using object orientated programming and the Laravel framework. The API follows REST principals to interact with the databse we created. The user can get all books, filter, search, add a book, add a review, claim a book or return a book.",
+            "imageOne": "src/assets/bookswapImageDesktop.jpg",
+            "imageTwo": "src/assets/bookswapImageDesktop.jpg",
+            "git": "https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api",
+            "live": "https://2024-may-bookswap-fe-library-rats.dev.io-academy.uk/",
+            "api": "https://2024-may-bookswap-api-library-rats.dev.io-academy.uk/api/books",
+            "documentation": "https://github.com/iO-Academy/book-swap-api-docs/blob/main/README.md"
+        },
+        {
+            "id": 3,
+            "link": "project3",
             "name": "Music Player",
             "description": "The purpose of this project was to code the back-end of a music player using object orientated programing in PHP and MySQL database queries. The app accesses a database of artists, albums and songs which are displayed on the app in various ways. The user can track song play counts, see which albums are most popular, and favourite songs.",
             "imageOne": "src/assets/musicImageDesktop.jpg",
             "imageTwo": "src/assets/musicImageDesktop.jpg",
             "git": "https://github.com/FloCRC/2024-may-music-player-hungry-hungry-caterpillars",
-            "live": "https://2024-florentc.dev.io-academy.uk/2024-may-music-player-hungry-hungry-caterpillars/"
+            "live": "https://2024-florentc.dev.io-academy.uk/2024-may-music-player-hungry-hungry-caterpillars/",
+            "api": "",
+            "documentation": ""
         },
         {
-            "id": 3,
-            "link": "project3",
+            "id": 4,
+            "link": "project4",
             "name": "Web Portfolio",
             "description": "The purpose of this project was to build a web based portfolio that clearly displays my projects. This project is built with JavaSscript, HTML and tailwindcss using the React.js library. Responsive design is used to ensure accessibility across different devices, and a JSON file is used to fetch data about my projects.",
             "imageOne": "src/assets/portfolioImageDesktop.jpg",
             "imageTwo": "src/assets/portfolioImageMobile.jpg",
             "git": "https://github.com/FloCRC/my-portfolio",
-            "live": "https://portfolio.2024-florentc.dev.io-academy.uk/"
+            "live": "https://portfolio.2024-florentc.dev.io-academy.uk/",
+            "api": "",
+            "documentation": ""
         }
     ]
 }
