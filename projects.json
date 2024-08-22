@@ -16,7 +16,7 @@
             "id": 2,
             "link": "project2",
             "name": "Bookswap API",
-            "description": "The purpose of this project was to build a RESTful API for an existing front-end project. This was a group project built with PHP, using object orientated programming and the Laravel framework. The API follows REST principals to interact with the databse we created. The user can get all books, filter, search, add a book, add a review, claim a book or return a book.",
+            "description": "The purpose of this project was to build a RESTful API for an existing front-end project. This was a group project built with PHP, using object oriented programming and the Laravel framework. The API follows REST principles to interact with the database we created. Laravel helped us structure the use of the MVC design pattern to interact with our database. The user can get all books, filter, search, add a book, add a review, claim a book or return a book.",
             "imageOne": "src/assets/bookswapImageDesktop.jpg",
             "imageTwo": "src/assets/bookswapImageDesktop.jpg",
             "git": "https://github.com/iO-Academy/2024-may-sde-library-rats-book-swap-api",

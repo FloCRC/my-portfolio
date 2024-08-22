@@ -2,8 +2,6 @@ import { useEffect, useState } from "react"
 
 export default function Nav({ projects }) {
 
-    const [page, setPage] = useState('home')
-
     const [visible, setVisible] = useState('')
     const [mobileVisible, setMobileVisible] = useState('hidden')
 
@@ -11,19 +9,6 @@ export default function Nav({ projects }) {
         visible === 'hidden' ? setVisible('') : setVisible('hidden')
         mobileVisible === 'hidden' ? setMobileVisible('') : setMobileVisible('hidden')
     }
-
-    useEffect(() => {
-        window.navigation.addEventListener("navigate", (event) => {
-            const url = event.destination.url
-            if (url.includes('cvFlorentCuer.pdf')) {
-                setPage('cv')
-            }
-            else {
-                const splitUrl = url.split('#')
-                setPage(splitUrl[1])
-            }
-        })
-    }, [])
 
     return (
         <>
@@ -33,12 +18,12 @@ export default function Nav({ projects }) {
                         <button onClick={toggleDrop} className="dropButton"><i className="fa-solid fa-bars text-grey hover:opacity-90 hover:text-red"> </i></button>
                     </div>
                     <div className={`flex flex-col absolute mt-10 mr-2 text-right text-nowrap text-grey ${visible}`}>
-                        <a href="#home" className={`${page === 'home' ? 'text-red' : 'text-grey'} font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>About</a>
-                        <a href="#projects" className={`${page === 'projects' ? 'text-red' : 'text-grey'} font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>Projects</a>
+                        <a href="#home" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>About</a>
+                        <a href="#projects" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>Projects</a>
                         {projects.map(project =>
-                            <a key={project.id} href={`#project${project.id}`} className={`${page === `project${project.id}` ? 'text-red' : 'text-grey'} font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>{project.name}</a>
+                            <a key={project.id} href={`#project${project.id}`} className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>{project.name}</a>
                         )}
-                        <a href="#cv" className={`${page === 'cv' ? 'text-red' : 'text-grey'} font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>CV</a>
+                        <a href="#cv" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>CV</a>
                     </div>
                     <button className="home text-grey mr-2 font-['Outfit'] hover:opacity-90 hover:text-red"><a href="#home">Home</a></button>
                 </nav>
@@ -57,9 +42,9 @@ export default function Nav({ projects }) {
                         <button onClick={toggleDrop} className="dropButton"><i className="fa-solid fa-bars text-grey hover:opacity-90 hover:text-red"> </i></button>
                     </div>
                     <div className={`flex justify-around mt-10 py-2 w-screen border-y absolute text-grey bg-[url('src/assets/bgimage.avif')] ${mobileVisible} sm:justify-center`}>
-                        <a href="#home" className="font-['Outfit'] sm:pr-7"><p className={`${page === 'home' ? 'text-red' : 'text-grey'} hover:opacity-90 hover:text-red`}>About</p></a>
-                        <a href="#projects" className="font-['Outfit'] sm:border-x sm:px-7"><p className={`${page.includes('project') ? 'text-red' : 'text-grey'} hover:opacity-90 hover:text-red`}>Projects</p></a>
-                        <a href="#cv" className="font-['Outfit'] sm:pl-7"><p className={`${page === 'cv' ? 'text-red' : 'text-grey'} hover:opacity-90 hover:text-red`}>CV</p></a>
+                        <a href="#home" className="font-['Outfit'] sm:pr-7"><p className={` hover:opacity-90 hover:text-red`}>About</p></a>
+                        <a href="#projects" className="font-['Outfit'] sm:border-x sm:px-7"><p className={` hover:opacity-90 hover:text-red`}>Projects</p></a>
+                        <a href="#cv" className="font-['Outfit'] sm:pl-7"><p className={` hover:opacity-90 hover:text-red`}>CV</p></a>
                     </div>
                     <button className="home text-grey mr-2 font-['Outfit'] hover:opacity-90 hover:text-red"><a href="#home">Home</a></button>
                 </nav>

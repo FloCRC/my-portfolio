@@ -13,7 +13,7 @@ export default function ProjectAbout({ project, projects }) {
                 <span className="flex justify-end text-4xl text-center mt-2 md:text-3xl md:justify-start">
                     <a href={project.git} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-brands fa-github"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">GitHub</p></a>
                     {project.api && <a href={project.documentation} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-regular fa-file"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">Docs</p></a>}
-                    {project.api && <a href={project.api} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i class="fa-solid fa-gears"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">API</p></a>}
+                    {project.api && <a href={project.api} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-solid fa-gears"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">API</p></a>}
                     <a href={project.live} className="text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-solid fa-arrow-up-right-from-square"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">Live</p></a>
                 </span>
             </div>
