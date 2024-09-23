@@ -39,6 +39,18 @@
         {
             "id": 4,
             "link": "project4",
+            "name": "Word Game",
+            "description": "The purpose of this project was to practise the use of React.js by building a Wordle stlye word game. This project is built with JavaSscript, HTML and tailwindcss using the React.js library.",
+            "imageOne": "src/assets/wordGameImageDesktop.jpg",
+            "imageTwo": "src/assets/wordGameImageMobile.jpg",
+            "git": "https://github.com/FloCRC/word_game",
+            "live": "https://wordgame.2024-florentc.dev.io-academy.uk/",
+            "api": "",
+            "documentation": ""
+        },
+        {
+            "id": 5,
+            "link": "project5",
             "name": "Web Portfolio",
             "description": "The purpose of this project was to build a web based portfolio that clearly displays my projects. This project is built with JavaSscript, HTML and tailwindcss using the React.js library. Responsive design is used to ensure accessibility across different devices, and a JSON file is used to fetch data about my projects.",
             "imageOne": "src/assets/portfolioImageDesktop.jpg",
