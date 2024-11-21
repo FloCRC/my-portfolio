@@ -8,7 +8,7 @@ export default function ProjectAbout({ project, projects }) {
             </a>
             <div className="flex flex-col">
                 <h1 className="w-full text-right font-bold text-4xl text-red font-['Outfit'] md:text-3xl md:text-left sm:text-2xl">{project.name}</h1>
-                <h2 className="w-full text-right font-bold text-lg font-['Outfit']"></h2>
+                <h2 className="w-full text-right font-semibold text-lg text-grey font-['Outfit']">{project.subHeading}</h2>
                 <p className="w-full pt-4 text-justify text-grey font-['Playwrite_DE_Grund'] md:pt-2 sm:text-sm">{project.description}</p>
                 <span className="flex justify-end text-4xl text-center mt-2 md:text-3xl md:justify-start">
                     <a href={project.git} className="pr-6 text-grey hover:opacity-80 hover:text-red" target="_blank"><i className="fa-brands fa-github"></i><p className="text-sm pt-1 font-['Outfit'] md:text-xs">GitHub</p></a>

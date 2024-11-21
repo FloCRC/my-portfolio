@@ -17,13 +17,13 @@ export default function Nav({ projects }) {
                     <div className="m-1.5 pr-1">
                         <button onClick={toggleDrop} className="dropButton"><i className="fa-solid fa-bars text-grey hover:opacity-90 hover:text-red"> </i></button>
                     </div>
-                    <div className={`flex flex-col absolute mt-10 mr-2 text-right text-nowrap text-grey ${visible}`}>
-                        <a href="#home" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>About</a>
-                        <a href="#projects" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>Projects</a>
+                    <div className={`flex flex-col absolute mt-10 px-2 text-right text-nowrap text-grey ${visible}`}>
+                        <a href="#home" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red pb-1`}>About</a>
+                        <a href="#projects" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red py-1`}>Projects</a>
                         {projects.map(project =>
-                            <a key={project.id} href={`#project${project.id}`} className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>{project.name}</a>
+                            <a key={project.id} href={`#project${project.id}`} className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red text-wrap py-1`}>{project.name}</a>
                         )}
-                        <a href="#cv" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red`}>CV</a>
+                        <a href="#cv" className={` font-['Playwrite_DE_Grund'] hover:opacity-90 hover:text-red py-1`}>CV</a>
                     </div>
                     <button className="home text-grey mr-2 font-['Outfit'] hover:opacity-90 hover:text-red"><a href="#home">Home</a></button>
                 </nav>

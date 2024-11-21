@@ -8,7 +8,8 @@ export default function ProjectsGrid({ projects }) {
                         <div className="flex justify-center p-4 shadow-xl hover:shadow-inner hover:text-red">
                             <div className="flex flex-col">
                                 <a href={`#${project.link}`}>
-                                    <h3 className="text-left font-semibold text-xl font-['Outfit'] pb-2">{project.name}</h3>
+                                    <h3 className="text-left font-semibold text-xl font-['Outfit']">{project.name}</h3>
+                                    <p className="text-sm font-semibold text-red text-base pb-1">{project.subHeading}</p>
                                     <img src={project.imageOne} alt="Project 1 Image" className="w-96 h-56 md:h-auto" />
                                 </a>
                             </div>
